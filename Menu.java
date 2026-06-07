@@ -42,7 +42,14 @@ public class Menu {
                 System.out.println("You selected scholarships for women in STEM.");
                 handleScholarship(scanner);
             }
-            case "3" -> System.out.println("You selected educational resources for women in STEM.");
+            case "3" -> {
+                System.out.println("You selected educational resources for women in STEM.");
+                System.out.println("Upcoming Conferences for Women in STEM:");
+                System.out.println("1. Defcon Conference - Aug 6 - 9th, Las Vegas");
+                System.out.println("2. The Global Women in Stem Leadership Summit - September 14 - 15, Atlanta");
+                System.out.println("3. NSF Scholars Meeting - October 9-11th, DC");
+                System.out.println("4. Society of Women Engineers - November 5-7th, Boston");
+            }
             case "4" -> System.out.println("You selected STEM clubs (SWE) (Join the EvCC STEM Club).");
             case "5" -> {
                 System.out.println("You selected support for women in STEM.");
