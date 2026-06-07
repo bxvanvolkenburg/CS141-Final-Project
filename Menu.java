@@ -38,6 +38,7 @@ public class Menu {
             case "5" -> {
                 System.out.println("You selected support for women in STEM.");
                 System.out.println("Girls Who Code: https://girlswhocode.com");
+                System.out.println("American Association of University Women (AAUW): https://www.aauw.org");
             }
             default -> System.out.println("Invalid option. Please choose a number from 1 to 6 or q to quit.");
         }
