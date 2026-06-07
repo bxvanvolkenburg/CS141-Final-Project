@@ -50,7 +50,12 @@ public class Menu {
                 System.out.println("3. NSF Scholars Meeting - October 9-11th, DC");
                 System.out.println("4. Society of Women Engineers - November 5-7th, Boston");
             }
-            case "4" -> System.out.println("You selected STEM clubs (SWE) (Join the EvCC STEM Club).");
+            case "4" -> {
+                System.out.println("You selected STEM clubs (SWE) (Join the EvCC STEM Club).");
+                System.out.println("Contact Information:");
+                System.out.println("Name: Kristine Washburn");
+                System.out.println("Email: kwashburn@everettcc.edu");
+            }
             case "5" -> {
                 System.out.println("You selected support for women in STEM.");
                 System.out.println("Girls Who Code: https://girlswhocode.com");
