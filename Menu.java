@@ -35,7 +35,10 @@ public class Menu {
             case "2" -> System.out.println("You selected scholarships for women in STEM.");
             case "3" -> System.out.println("You selected educational resources for women in STEM.");
             case "4" -> System.out.println("You selected STEM clubs (SWE) (Join the EvCC STEM Club).");
-            case "5" -> System.out.println("You selected support for women in STEM.");
+            case "5" -> {
+                System.out.println("You selected support for women in STEM.");
+                System.out.println("Girls Who Code: https://girlswhocode.com");
+            }
             default -> System.out.println("Invalid option. Please choose a number from 1 to 6 or q to quit.");
         }
     }
